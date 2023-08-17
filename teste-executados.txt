@@ -1,0 +1,23 @@
+Autenticacao
+ [x] E cenarios de autenticacao with data set "Acesso Admin Sucesso"
+ [x] E cenarios de autenticacao with data set "Acesso Get Sucesso"
+ [x] E cenarios de autenticacao with data set "Acesso Delete Sucesso"
+ [x] E cenarios de autenticacao with data set "Acesso Post Sucesso"
+ [x] E cenarios de autenticacao with data set "Acesso Put Sucesso"
+ [x] E cenarios de autenticacao with data set "Acesso Leitura Sucesso"
+ [x] E cenarios de autenticacao with data set "Acesso Admin Falhou"
+ [x] E cenarios de autenticacao with data set "Acesso Get Falhou"
+ [x] E cenarios de autenticacao with data set "Acesso Delete Falhou"
+ [x] E cenarios de autenticacao with data set "Acesso Post Falhou"
+ [x] E cenarios de autenticacao with data set "Acesso Put Falhou"
+ [x] E cenarios de autenticacao with data set "Acesso Leitura Falhou"
+
+Email Sender
+ [x] Send email
+
+Group User Controller
+ [x] Atribuir funcao
+
+Helpers
+ [x] Processar dados
+

@@ -1,0 +1,21 @@
+{
+    "name": "projeto/unit",
+    "description": "Projeto pra elucidar dúvidas sobre PHPUnit",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Projeto\\Unit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonardo Nascimento",
+            "email": "leo_leonascimento@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    }
+}

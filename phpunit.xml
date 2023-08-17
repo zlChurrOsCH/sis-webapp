@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+         requireCoverageMetadata="false"
+         beStrictAboutCoverageMetadata="false"
+         colors="true"
+         processIsolation="false">
+    <testsuites>
+        <testsuite name="Test unit">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <source>
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+    </source>
+    <coverage>
+        <report>
+            <clover outputFile="test-report/coverage.xml"/>
+        </report>
+    </coverage>
+    <logging>
+        <testdoxText outputFile="teste-executados.txt"/>
+</logging>
+</phpunit>
